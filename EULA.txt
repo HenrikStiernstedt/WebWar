@@ -1,0 +1,133 @@
+For the most up to date version of this document please refer to http://www.clockworkchilli.com/main/policy/wade_eula
+
+
+Short version in plain English
+
+This is a short and simplified version of the license. However you are agreeing to the full version, so please read it.
+If you are an individual or a company with annual revenue < $200,000 you qualify for the free indie license of the WADE engine.
+This allows you to make games and non-games, for any purpose including selling and licensing, without paying anything to Clockwork Chilli. However you must not:
+
+    Distribute non-compiled (or non-minified) versions of Clockwork Chilli's source code.
+    Create a product that competes with WADE.
+
+If you have a credits screen or credits sequence in your game or app, you must display the text "Powered by WADE (www.clockworkchilli.com)". Also please send us an email (or post in the forums at www.clockworkchilli.com) to let us know that you are releasing a product powered by WADE.
+
+If you do not qualify, or find that any of these restrictions are unacceptable for you, please consider getting a license for WADE Pro, which also includes the full commented source code of the WADE engine.
+
+Also please note that this license does not extend to any plug-in's or auxiliary modules for WADE, which will have their own license agreements.
+
+
+Full EULA:
+
+
+END USER LICENSE AGREEMENT
+
+This End User License Agreement ("EULA") is a binding agreement between you ("You" or "Your") and Clockwork Chilli ltd ("Clockwork Chilli") and governs the use of the Clockwork Chilli software that You have selected to download (the "Software," as more fully defined below). By downloading, installing, or using the Software, You accept the terms of this EULA on behalf of Yourself and Your organization (if any). Inquiries about this EULA and other licenses offered by Clockwork Chilli should be directed to licensing@clockworkchilli.com.
+
+1. Definitions.
+
+1.1. "Smart TV" means any television set capable of displaying interactive content, whether HTML5-based or otherwise.
+
+1.2. "Console" means any game console system including but not limited to Xbox 360; Sony Playstation 3 and Vita; Nintendo Wii, DS, 3DS, WiiU; and the successors to the foregoing systems.
+
+1.3. "Game" means software that is intended primarily for non-gambling entertainment purposes only. A Game may include tools specific to that Game that allow users to modify the Game (e.g., add new levels, etc.).
+
+1.4. "Clockwork Chilli" means Clockwork Chilli ltd, a limited company with registration number 8086780 and whose registered offices are located in England and Wales.
+
+1.5. "Logo Guidelines" mean the guidelines for using the WADE Logo that are provided on the Website, which Clockwork Chilli may, in its sole discretion, change from time to time.
+
+1.6. "Mobile Device" means any handheld or mobile device including but not limited to an Apple Mobile Device, the RIM Blackberry, a device running the Android operating system, a device running the Mozilla OS, or a device running the Microsoft Windows Phone operating system.
+
+1.7. "Non-Game" means software that is not a Game.
+
+1.8. "Personal Computer" means any personal computer, including but not limited to any personal computer that uses Windows, Mac, or Linux operating system software, but does not include any Console or Mobile Device.
+
+1.9. "Product" means any Game or Non-Game.
+
+1.10. "Software" includes the source code and executable code and art assets provided to You by Clockwork Chilli and all associated documentation (if any). The Software also includes any update to the Software that corrects bugs or provides feature enhancements. For clarity, the Software does not include next generation versions of the Software.
+
+1.11. "WADE Logo" means the WADE mark and logo provided on the Website.
+
+1.12. "Website" means the website located at www.clockworkchilli.com and any successor website.
+
+2. Grant of License.
+
+2.1. General Software License. Subject to Your compliance with the terms and conditions of this EULA, Clockwork Chilli hereby grants You a limited, worldwide, non-exclusive, non-sublicenseable, non-transferrable (except as expressly provided in Section 2.3), non-assignable, fully paid-up, royalty-free, right and license to use the Software to:
+
+2.1.1. develop and distribute in any format (with the exceptions outlined in section 2.2), an unlimited number of Games for Personal Computers, Smart TVs, Consoles or Mobile Devices to the extent that Your gross revenue from the sale of software and related products for the most recent calendar year was less than $200,000;;
+
+2.1.2. develop and distribute in any format (with the exceptions outlined in section 2.2), an unlimited number of Non-Games for Personal Computers, Smart TVs, Consoles or Mobile Devices to the extent that Your gross revenue from the sale of software and related products for the most recent calendar year was less than $200,000;
+
+2.1.3. develop a correction, improvement, or modification to the Software for Your personal purposes;
+
+2.1.4. develop and distribute in object code format only, a correction, improvement, or modification to the Software for use in a Game or Non-Game that You develop pursuant to Sections 2.1.1 or 2.1.2, provided that such correction, improvement, or modification is necessary for the operation of the Game; and
+
+2.1.5. develop and distribute a correction, improvement, or modification to the Software in source code format, provided that such correction, improvement, or modification may only be distributed to persons who have licenses to the version of the Software to which the correction, improvement, or modification pertains.
+
+2.1.6. develop and distribute art assets included in the Software provided that they are delivered in a Game using a run time format.
+
+2.2. Special Software Version Licenses.
+
+2.2.1 If you obtained, from Clockwork Chilli or otherwise, the source code of any Clockwork Chilli product, duplication and distribution of said source code is not permitted unless as explicitely stated in section 2.1.5, in which case it must be a section of the source code that pertains to the corrected, modified, or improved version that You are distributing.
+
+2.3. Seat Restrictions; Copies.
+
+2.3.1. Individual License. If You have purchased an "Individual License," only You may use the Software. An organizational entity may purchase an "Indivdual License" for a specific employee. Each individual employee who uses the Software must have an Individual License. You may install the Software on up to three (3) Personal Computers at a time in order to use the Software.
+
+2.3.2. Studio License. If You have purchased a "Studio License," You have the right to designate one (1) individual user per license seat (each a "Seat") that You purchase from Clockwork Chilli to use the Software. Each Seat user must be Your employee or contractor, have an account on the Website, and be registered to use the particular Seat. You may re-designate a Seat to a different user once per thirty (30) day period without Clockwork Chilli’s prior written consent; more frequent or a greater number of re-designations require Clockwork Chilli’s prior written consent. You shall be responsible for each Seat user’s compliance with this EULA. You may install the Software on up to three (3) Personal Computers per Seat at a time in order to use the Software.
+
+2.3.3. Backup Copies. You may install the Software on an unlimited number of Personal Computers for backup purposes.
+
+3. License Conditions.
+
+3.1. Fees. You shall pay the price specified on the Website or otherwise charged by Clockwork Chilli for the Software. In the event of nonpayment or a chargeback or a refund, this EULA and the licenses granted herein shall immediately terminate.
+
+3.2. Restrictions. You shall only use the Software as set forth in Sections 2 and 3. In addition, You shall not:
+
+3.2.1. Distribute the Software (or any part thereof) or make derivative works from the Software except as provided in Section 2 without Clockwork Chilli's prior written consent;
+
+3.2.2. distribute in source code format any Product made using the Software except as provided in Section 2.1.5;
+
+3.2.3. make more copies of the Software than are permitted by Section 2;
+
+3.2.4. reverse engineer, decompile, or otherwise attempt to derive the algorithms of the Software except as permitted by applicable law;
+
+3.2.5. remove or alter any trademark, logo, copyright, or other proprietary notices, legends, symbols, or labels in the Software;
+
+3.2.6. use the Software to develop or distribute any software that competes with the Software without Clockwork Chilli’s prior written consent;
+
+3.2.7. represent that You are affiliated with Clockwork Chilli or that any Product that You develop using the Software is approved by Clockwork Chilli; or
+
+3.2.8. use the Software for any illegal purpose.
+
+3.3. Attribution. With respect to any Product that You develop using the Software, You shall:
+
+3.3.1. display in the "About" box or in the credits screen of the Product the text "Powered by WADE (www.clockworkchilli.com)";
+
+3.3.2. notify Clockwork Chilli in writing that You are publicly releasing a Product that was developed using the Software within the first 30 days following the release.
+
+3.4. Trademark License. Subject to Your compliance with the terms of this EULA, Clockwork Chilli hereby grants You a permission to use the WADE Logo for the purposes set forth in Section 3.3. You hereby grant Clockwork Chilli permission to refer to You or the name of any Product you develop using the Software for marketing purposes. All goodwill in each party’s trademarks and logos will inure to the sole benefit of that party.
+
+3.5. All Rights Reserved. You agree and acknowledge that, as between Clockwork Chilli and You, Clockwork Chilli owns all right, title, and interest to the Software and the WADE Logo. Except as expressly set forth in Sections 2 and 3.4, no right, title, or interest in or to the Software or the WADE Logo is transferred to You. All rights not expressly granted by Clockwork Chilli are hereby reserved.
+
+4. Term and Termination. This EULA and the licenses granted therein shall commence on the earliest date that You download, install, or use Software and shall continue unless and until terminated in accordance with this Section 4. This EULA and the licenses contained therein shall automatically terminate if You materially breach any of its terms or conditions of this EULA. Upon termination, You shall destroy all copies of the Software. Sections 1, 3.5, 4, 5, 6, 8 and 9 shall survive any termination of this EULA.
+
+5. DISCLAIMER OF WARRANTY. THE SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND, INCLUDING WITHOUT LIMITATION THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS YOUR RESPONSIBILITY. SHOULD THE SOFTWARE PROVE DEFECTIVE IN ANY RESPECT, YOU ASSUME THE ENTIRE COST OF ANY SERVICE OR REPAIR. CLOCKWORK CHILLI SHALL NOT BE OBLIGATED TO PROVIDE ANY SUPPORT FOR THE SOFTWARE. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS EULA. NO USE OF THE SOFTWARE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.
+
+6. LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL CLOCKWORK CHILLI BE LIABLE FOR (A) ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, INCLUDING, WITHOUT LIMITATION, LOST PROFITS OR DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE, OR MALFUNCTION, EVEN IF ADVISED OF THE POSSIBILITY THEREOF, AND REGARDLESS OF THE LEGAL OR EQUITABLE THEORY (CONTRACT, TORT, OR OTHERWISE) UPON WHICH THE CLAIM IS BASED; OR (B) DAMAGES EXCEEDING THE GREATER OF (X) THE TOTAL FEES PAID BY YOU FOR THE SOFTWARE; OR (Y) G.B.P. £50.00.
+
+7. Representations and Warranties. You represent and warrant that You have the right and authority to enter into and perform the obligations of this EULA and will not be violating any contract or law by entering into this EULA.
+
+8. Indemnification. You shall defend, indemnify, and hold harmless Clockwork Chilli, its parent, subsidiaries, affiliated companies and partners and their respective officers, directors, employees, and agents from and against any and all liabilities, damages, costs and fees (including reasonable attorneys’ fees) resulting from or relating to: (a) any third party claims or lawsuits related to any Product You create using the Software; (b) any third party claims or lawsuits asserting that You breached any obligation, representation, or warranty hereunder.
+
+9. Miscellaneous.
+
+9.1. Nothing in this EULA shall create, evidence, or imply any agency, partnership, or joint venture between the parties.
+
+9.2. This EULA shall be binding upon and shall inure to the benefit of the parties, their successors and permitted assigns. You may not assign this EULA without Clockwork Chilli's prior written consent. No third party beneficiaries are intended; except for the parties hereto, no person or entity shall have the right to assert or enforce any provision of this Agreement.
+
+9.3. This EULA shall be governed by the laws of England and Wales, excluding its conflict of law provisions. This EULA shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods. All disputes arising out of or relating to this EULA shall be commenced in the courts located in Newcastle upon Tyne, England, and You irrevocably submit to the exclusive jurisdiction of such courts. In any such proceeding, (a) EACH PARTY IRREVOCABLY WAIVES ALL RIGHT TO TRIAL BY JURY; and (b) the substantially prevailing party shall be entitled to recover its attorneys’ fees and costs.
+
+9.4. If You are located outside the United Kingdom, then You shall be responsible for complying with any local laws in Your jurisdiction which might impact Your right to import, export, or use the Software, and You warrant that You will comply with any regulations or registration procedures required by applicable law to make this EULA enforceable.
+
+9.5. If any provision in this EULA should be held illegal or unenforceable by a court having jurisdiction, such provision shall be modified to the extent necessary to render it enforceable without losing its intent, or severed from this EULA if no such modification is possible, and other provisions of this EULA shall remain in full force and effect. A waiver by Clockwork Chilli of any term or condition of this Agreement or any breach thereof, in any one instance, shall not waive such term or condition or any subsequent breach thereof. This EULA expresses the parties’ final agreement as to the subject matter hereof and supersedes all prior agreements and understandings relating thereto. This EULA may only be amended in a writing approved by Clockwork Chilli. 

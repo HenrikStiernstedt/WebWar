@@ -1,0 +1,815 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - Animation</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/Animation.html">Animation</a></li>
+	
+	<li><a href="../symbols/SceneObject.html">SceneObject</a></li>
+	
+	<li><a href="../symbols/Sprite.html">Sprite</a></li>
+	
+	<li><a href="../symbols/TextSprite.html">TextSprite</a></li>
+	
+	<li><a href="../symbols/Wade.html">Wade</a></li>
+	
+	<li><a href="../symbols/Wade_drawFunctions.html">Wade_drawFunctions</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class Animation
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class Animation.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/Animation.html#constructor">Animation</a></b>(image, numCellsX, numCellsY, speed, looping, startFrame, endFrame, autoResize, offset)
+							</div>
+							<div class="description">An Animation object is used in WADE to store and update animation data.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class Animation.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#clone">clone</a></b>()
+								</div>
+								<div class="description">Clone the animation</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#getFrameSize">getFrameSize</a></b>()
+								</div>
+								<div class="description">Get the size of a single animation frame</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#getImageName">getImageName</a></b>()
+								</div>
+								<div class="description">Get the name of the image being used</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#getImageSize">getImageSize</a></b>()
+								</div>
+								<div class="description">Get the size of the image (i.e.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#getNumCells">getNumCells</a></b>()
+								</div>
+								<div class="description">Get the number of cells in the animation spritesheet</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#isPlaying">isPlaying</a></b>()
+								</div>
+								<div class="description">Check whether the animation is playing</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#play">play</a></b>(direction)
+								</div>
+								<div class="description">Play the animation</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#resume">resume</a></b>()
+								</div>
+								<div class="description">Resume an animation that had previously been stopped</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#setBlending">setBlending</a></b>(toggle)
+								</div>
+								<div class="description">Enable or disable blending between animation frames.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#step">step</a></b>()
+								</div>
+								<div class="description">Perform a simulation step for the current animation.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Animation.html#stop">stop</a></b>()
+								</div>
+								<div class="description">Stop the animation</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>Animation</b>(image, numCellsX, numCellsY, speed, looping, startFrame, endFrame, autoResize, offset)
+				</div>
+				
+				<div class="description">
+					An Animation object is used in WADE to store and update animation data. It has a reference to an image that contains one or more frames of animation. It is assumed that all frames have the same size, and that the image size is an integer multiple of the frame size. <br/>
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{string}</span>  <b>image</b>
+								<i>Optional</i>
+							</dt>
+								<dd>A file name of an image that has previously been loaded. If omitted or falsy, a blank image will be used</dd>
+						
+							<dt>
+								<span class="light fixedFont">{number}</span>  <b>numCellsX</b>
+								<i>Optional, Default: 1</i>
+							</dt>
+								<dd>The number of horizontal cells in the image</dd>
+						
+							<dt>
+								<span class="light fixedFont">{number}</span>  <b>numCellsY</b>
+								<i>Optional, Default: 1</i>
+							</dt>
+								<dd>The number of vertical cells in the image</dd>
+						
+							<dt>
+								<span class="light fixedFont">{number}</span>  <b>speed</b>
+								<i>Optional, Default:  0</i>
+							</dt>
+								<dd>The animation speed, in frames per second</dd>
+						
+							<dt>
+								<span class="light fixedFont">{boolean}</span>  <b>looping</b>
+								<i>Optional, Default:  false</i>
+							</dt>
+								<dd>Whether the animation should start again automatically when it's finished playing</dd>
+						
+							<dt>
+								<span class="light fixedFont">{number}</span>  <b>startFrame</b>
+								<i>Optional, Default:  0</i>
+							</dt>
+								<dd>The cell index corresponding to the first frame in the animation</dd>
+						
+							<dt>
+								<span class="light fixedFont">{number}</span>  <b>endFrame</b>
+								<i>Optional</i>
+							</dt>
+								<dd>The cell index corresponding to the last frame in the animation. If omitted or falsy, the last cell index will be used.</dd>
+						
+							<dt>
+								<span class="light fixedFont">{boolean}</span>  <b>autoResize</b>
+								<i>Optional</i>
+							</dt>
+								<dd>Whether the animation, when played, should automatically preserve the parent sprite's scale factor.</dd>
+						
+							<dt>
+								<span class="light fixedFont">{{x:number|y:number}}</span>  <b>offset</b>
+								<i>Optional</i>
+							</dt>
+								<dd>An object with x and y fields describing an offset (in world space units) to be added to the parent sprite's position when the animation is playing.</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="clone"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{object}</span>
+					<b>clone</b>()
+					
+					</div>
+					<div class="description">
+						Clone the animation
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{object}</span> A copy of the animation</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getFrameSize"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{{x: number|y: number}}</span>
+					<b>getFrameSize</b>()
+					
+					</div>
+					<div class="description">
+						Get the size of a single animation frame
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{{x: number|y: number}}</span> An object with 'x' and 'y' fields representing the size</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getImageName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{string}</span>
+					<b>getImageName</b>()
+					
+					</div>
+					<div class="description">
+						Get the name of the image being used
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{string}</span> The name of the image being used</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getImageSize"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{{x: number|y: number}}</span>
+					<b>getImageSize</b>()
+					
+					</div>
+					<div class="description">
+						Get the size of the image (i.e. the whole sprite sheet) being used for the animation
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{{x: number|y: number}}</span> An object with 'x' and 'y' fields representing the size</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getNumCells"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{{x: number|y: number}}</span>
+					<b>getNumCells</b>()
+					
+					</div>
+					<div class="description">
+						Get the number of cells in the animation spritesheet
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{{x: number|y: number}}</span> The number of cells in the spritesheet</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isPlaying"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{boolean}</span>
+					<b>isPlaying</b>()
+					
+					</div>
+					<div class="description">
+						Check whether the animation is playing
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{boolean}</span> Whether the animation is currently playing</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="play"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>play</b>(direction)
+					
+					</div>
+					<div class="description">
+						Play the animation
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>direction</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The direction of the animation. It can be 'forward', 'reverse' or 'ping-pong' (which means forward and then reverse). Default is 'forward'</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="resume"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>resume</b>()
+					
+					</div>
+					<div class="description">
+						Resume an animation that had previously been stopped
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setBlending"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setBlending</b>(toggle)
+					
+					</div>
+					<div class="description">
+						Enable or disable blending between animation frames. This is false by default.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>toggle</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Whether or not to enable animation blending. If omitted, 'true' is assumed</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="step"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>step</b>()
+					
+					</div>
+					<div class="description">
+						Perform a simulation step for the current animation. This may result in displaying a different frame, and/or firing an 'onAnimationEnd' event.<br/>This function is called automatically by WADE at each simulation step (only for animations that are currently playing)
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="stop"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>stop</b>()
+					
+					</div>
+					<div class="description">
+						Stop the animation
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Sun Feb 02 2014 13:00:11 GMT-0000 (GMT)
+		</div>
+	</body>
+</html>
