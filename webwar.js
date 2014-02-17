@@ -41,22 +41,30 @@ App = function()
         var backObject = new SceneObject(backSprite);
         wade.addSceneObject(backObject);
         
-        
-        var buttonSize = Math.min(screenWidth, screenHeight) / 5;
-        var buttonSprite = new Sprite();
-        buttonSprite.setSize(buttonSize, buttonSize);
-        var button = new SceneObject(buttonSprite);
-        wade.addSceneObject(button);
-        var levelText = new TextSprite('1', (buttonSize / 2) + 'px Arial', 'blue', 'center');
-        button.addSprite(levelText, {x:0, y: buttonSize / 6});
-        button.onMouseUp = function()
-        {
-            wade.app.loadLevel(this.levelId);
-        };
-        wade.addEventListener(button, 'onMouseUp');
-        
         var textSprite = new TextSprite('Select a level', (screenHeight / 10) + 'px Arial', '#88f', 'center');
         wade.addSceneObject(new SceneObject(textSprite, 0, 0, -screenHeight / 2 + screenHeight / 10));
+        
+        for (var i = 0; i < 2; i++) 
+        {
+	        var buttonSize = Math.min(screenWidth, screenHeight) / 5;
+	        var buttonSprite = new Sprite();
+	        buttonSprite.setSize(buttonSize, buttonSize);
+	        var x = (i - 1 + 0.5) * buttonSize;
+            //var y = (j - gridSize/2 + 0.5) * cellSize;
+	        var button = new SceneObject(buttonSprite, 0, x, 0);
+	        wade.addSceneObject(button);
+	        var levelText = new TextSprite(i+1, (buttonSize / 2) + 'px Arial', 'blue', 'center');
+	        button.addSprite(levelText, {x:0, y: buttonSize / 6});
+	        button.hubId = i+1;
+	        button.onMouseUp = function()
+	        {
+	            wade.app.loadLevel(this.hubId);
+	        };
+	        wade.addEventListener(button, 'onMouseUp');
+	        
+        }
+        
+        
 	};
 
 	// Skapa om storleken om browsern byter storlek.
@@ -101,7 +109,7 @@ App = function()
        
        // wade.preloadScript('source/hub.js', function() 
        // {
-            wade.removeSceneObject(loading);
+         /*   wade.removeSceneObject(loading);
         	this.startLevel(
         		[
         		 [1, 1, 0, 5, 5, 0],
@@ -112,6 +120,18 @@ App = function()
         		 [5, 5, 1, 1, 0, 0]
         		]
         	);
+        */	
+    	// load hub data
+        var hubId = levelId;
+        var hubFile = 'hubs/hub' + hubId + '.json';
+        var hub = {};
+        wade.preloadJson(hubFile, hub, function()
+        {
+            wade.removeSceneObject(loading);
+            wade.app.startLevel(hub.data);
+        }, true);	
+        	
+        	
         //}, null, null);
         
     };
@@ -185,8 +205,8 @@ App = function()
                         context.moveTo(pos.x, pos.y);
                         context.fillRect(pos.x-(size.x/2), pos.y-(size.y/2), size.x, size.y);
                         //context.arc(pos.x, pos.y, size.x / 2, 0, Math.PI * 2, false);
-                        context.fill();
-                        context.fillStyle = fillStyle;
+                        //context.fill();
+                        //context.fillStyle = fillStyle;
                     });
                 }
             }
