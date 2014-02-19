@@ -1,7 +1,18 @@
 
-App.Hub = function()
+function Hub(hubId)
 {
+	
+	this.description = 'En text om denna Hub';
+	this.id = hubId;
 
+}
+
+Hub.prototype.sayId = function()
+{
+	return this.hubId;
+};
+
+	/*
     this.startLevel = function(levelData)
     {
         this.levelData = levelData;
@@ -104,5 +115,5 @@ App.Hub = function()
             gridLines[i] = [];
         }
     };
-
 };
+*/

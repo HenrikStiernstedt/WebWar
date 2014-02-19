@@ -14,9 +14,11 @@ App = function()
 		var mole = new SceneObject(sprite);
 		wade.addSceneObject(mole);
 		*/
+		wade.loadScript('source/hub.js', null, 1, null);
         this.createMainMenu();
 		
 	};
+	
 	
 	this.Hub;
 	
@@ -29,6 +31,10 @@ App = function()
 	
 	this.createMainMenu = function()
 	{
+		/* Tydligen felaktig syntax. Måste konfigurera "behaviours" istället.
+		var hub2 = new Hub(2);
+		alert(hub2.sayId());
+		*/
 		gameState = 'mainMenu';
 	    var screenWidth = wade.getScreenWidth();
 	    var screenHeight = wade.getScreenHeight();
@@ -165,7 +171,19 @@ App = function()
     {
         this.levelData = levelData;
         gameState = 'playing';
+        
+        var complexHub = false;
 
+        if(levelData.units != null)
+       	{ 
+        	complexHub = true;
+        }
+        
+        if(complexHub)
+        {
+        	levelData = levelData.map;
+       	}
+       
         // create a grid
         var numCells = levelData.length;
         var minSize = Math.min(wade.getScreenWidth(), wade.getScreenHeight());
